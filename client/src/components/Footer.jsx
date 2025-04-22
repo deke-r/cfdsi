@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const Footer = () => {
   const [loading, setLoading] = useState(false);
-  const [responseMsg, setResponseMsg] = useState(null); // For success/error message
+  const [responseMsg, setResponseMsg] = useState(null); 
   const {
     register,
     handleSubmit,
@@ -17,7 +17,7 @@ const Footer = () => {
     setResponseMsg(null);
 
     try {
-      const res = await axios.post('http://localhost:4000/contact-form-data', data);
+      const res = await axios.post(`${process.env.REACT_APP_BACKEND_API}/contact-form-data`, data);
       if (res.data.success) {
         setResponseMsg({ type: 'success', text: 'Message sent successfully!' });
         reset();
