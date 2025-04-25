@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav-item">
-          <button type='button' className='btn  fw-semibold f_14 rounded-pill' style={{backgroundColor:'#8e9fb8'}}>+91 9319154610</button>
+          <button type='button' className='btn  fw-semibold f_14 rounded-pill' style={{backgroundColor:'#8e9fb8'}}>+91 9319412012</button>
         </li>
       </ul>
 

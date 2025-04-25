@@ -6,7 +6,7 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import ExploreOurServices from '../components/ExploreOurServices'
 import AboutUs from '../components/AboutUs'
 import Testimonials from '../components/Testimonials'
-import img from '../assets/images/head1.jpg';
+import img from '../assets/images/2232-202403181445151076.jpg';
 import img2 from '../assets/images/section5.jpg';
 
 const Home = () => {

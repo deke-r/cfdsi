@@ -17,7 +17,7 @@ const Footer = () => {
     setResponseMsg(null);
 
     try {
-      const res = await axios.post(`${process.env.REACT_APP_BACKEND_API}/contact-form-data`, data);
+      const res = await axios.post('https://cfdsi.com/api/contact-form-data', data);
       if (res.data.success) {
         setResponseMsg({ type: 'success', text: 'Message sent successfully!' });
         reset();
@@ -45,8 +45,8 @@ const Footer = () => {
             </p>
             <p className="mb-1"><strong>We are open:</strong> Monday to Saturday / 09:00 - 18:00</p>
             <div className="mt-4">
-              <p className="mb-1"><i className="bi bi-geo-alt-fill me-2"></i>UGF Pocket 2, Jasola Delhi - 110025</p>
-              <p className="mb-1"><i className="bi bi-telephone-fill me-2"></i>+91-9319154610</p>
+              <p className="mb-1"><i className="bi bi-geo-alt-fill me-2"></i>DLF Prime Tower, Okhla Phase 1, Delhi-110020.</p>
+              <p className="mb-1"><i className="bi bi-telephone-fill me-2"></i>+91-9319412012</p>
               <p><i className="bi bi-envelope-fill me-2"></i>info@cfdsi.com</p>
             </div>
           </div>

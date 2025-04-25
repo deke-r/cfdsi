@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/images/section2.jpg';
 import BannerTop from '../components/BannerTop';
 import { Card } from 'react-bootstrap';
-import htImg from '../assets/images/section2.jpg';
+import htImg from '../assets/images/htcable.webp';
 import ContactBtn from '../components/ContactBtn';
 
 const HtCable = () => {

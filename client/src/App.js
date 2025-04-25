@@ -7,11 +7,13 @@ import About from './pages/About';
 import HtCable from './pages/HtCable';
 import LtCabel from './pages/LtCabel';
 import OfcCable from './pages/OfcCable';
+import ScrollToTop from './ScrollToTop';
 
 const App = () => {
   return (
     <>
    <BrowserRouter>
+   <ScrollToTop/>
    <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-import htImg from '../assets/images/section2.jpg';
-import ltImg from '../assets/images/section3.jpg';
+import htImg from '../assets/images/htcable.webp';
+import ltImg from '../assets/images/ltcable.jpg';
 import ofcImg from '../assets/images/section4.jpg';
 import ContactBtn from './ContactBtn';
 const ServiceCard = ({ title, location, usage, areaType, cableType, testType, description, image }) => {
