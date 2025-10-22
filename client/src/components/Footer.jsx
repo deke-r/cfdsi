@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [responseMsg, setResponseMsg] = useState(null); 
   const {
@@ -21,6 +23,7 @@ const Footer = () => {
       if (res.data.success) {
         setResponseMsg({ type: 'success', text: 'Message sent successfully!' });
         reset();
+        navigate('/thank-you');
       } else {
         setResponseMsg({ type: 'error', text: 'Something went wrong. Please try again.' });
       }
