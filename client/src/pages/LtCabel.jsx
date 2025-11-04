@@ -4,10 +4,19 @@ import BannerTop from '../components/BannerTop';
 import { Card } from 'react-bootstrap';
 import htImg from '../assets/images/ltcable.jpg';
 import ContactBtn from '../components/ContactBtn';
-
+import PageHelmet from '../components/PageHelmet'
 const HtCable = () => {
   return (
     <>
+
+<PageHelmet
+  title="LT Cable Repair & Fault Detection | CFDSI Low Voltage Specialists"
+  description="CFDSI offers reliable LT cable repair and low voltage fault detection services. Our team ensures minimal downtime with precision cable testing and jointing solutions."
+  keywords="LT cable repair, Low voltage cable fault detection, Underground cable repair, Cable jointing services, Emergency cable repair, Cable testing, Delhi cable repair, Cable fault locator"
+  canonicalUrl="https://cfdsi.com/cfdsi/lt-cable-repair-services/low-voltage-cable-fault-detection-repair"
+/>
+
+
       <BannerTop names="LT Fault Cable Repair" img={img} />
 
       <div className="container my-5">

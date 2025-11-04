@@ -4,10 +4,18 @@ import BannerTop from '../components/BannerTop';
 import { Card } from 'react-bootstrap';
 import htImg from '../assets/images/htcable.webp';
 import ContactBtn from '../components/ContactBtn';
-
+import PageHelmet from '../components/PageHelmet'
 const HtCable = () => {
   return (
     <>
+
+<PageHelmet
+  title="HT Cable Fault Detection & Repair | CFDSI High Voltage Experts"
+  description="CFDSI specializes in high voltage (HT) cable fault detection and repair. We use advanced fault locator tools to ensure safe and efficient restoration of your high-tension networks."
+  keywords="HT cable fault detection, Underground cable fault repair, High voltage cable testing, Cable jointing services, Emergency cable repair, Cable fault finding service, Delhi cable repair, Cable fault locator"
+  canonicalUrl="https://cfdsi.com/cfdsi/ht-cable-repair-services/high-voltage-cable-fault-detection-repair"
+/>
+
       <BannerTop names="HT Fault Cable Repair" img={img} />
 
       <div className="container my-5">

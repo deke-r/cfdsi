@@ -1,32 +1,82 @@
-import React from 'react'
-import Home from './pages/Home';
+import React, { useEffect } from "react";
+import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router";
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import About from './pages/About';
-import HtCable from './pages/HtCable';
-import LtCabel from './pages/LtCabel';
-import OfcCable from './pages/OfcCable';
-import ScrollToTop from './ScrollToTop';
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import About from "./pages/About";
+import HtCable from "./pages/HtCable";
+import LtCabel from "./pages/LtCabel";
+import OfcCable from "./pages/OfcCable";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
+  useEffect(() => {
+    // --- Google Analytics (gtag.js) ---
+    const gaScript = document.createElement("script");
+    gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-HT7FCJV8YM";
+    gaScript.async = true;
+    document.head.appendChild(gaScript);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-HT7FCJV8YM");
+
+    // --- Google Tag Manager ---
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      const f = d.getElementsByTagName(s)[0];
+      const j = d.createElement(s);
+      const dl = l !== "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-MZSB4BBG");
+  }, []);
+
   return (
     <>
-   <BrowserRouter>
-   <ScrollToTop/>
-   <Navbar/>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<About />} />
-      <Route path="/ht-cabel" element={<HtCable />} />
-      <Route path="/lt-cabel" element={<LtCabel />} />
-      <Route path="/ofc-cabel" element={<OfcCable />} />
-    </Routes>
-    <Footer/>
-  </BrowserRouter>
-    
-    </>
-  )
-}
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-MZSB4BBG"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+          title="gtm"
+        ></iframe>
+      </noscript>
+      {/* End Google Tag Manager (noscript) */}
 
-export default App
+      <BrowserRouter>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/cfdsi/about-us/underground-cable-fault-repair-experts"
+            element={<About />}
+          />
+          <Route
+            path="/cfdsi/ht-cable-repair-services/high-voltage-cable-fault-detection-repair"
+            element={<HtCable />}
+          />
+          <Route
+            path="/cfdsi/lt-cable-repair-services/low-voltage-cable-fault-detection-repair"
+            element={<LtCabel />}
+          />
+          <Route
+            path="/cfdsi/ofc-cable-repair-services/optical-fiber-cable-fault-repair-detection"
+            element={<OfcCable />}
+          />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default App;

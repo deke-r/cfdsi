@@ -4,10 +4,18 @@ import BannerTop from '../components/BannerTop';
 import { Card } from 'react-bootstrap';
 import ltImg from '../assets/images/section3.jpg'; // Replace with your actual image
 import ContactBtn from '../components/ContactBtn';
-
+import PageHelmet from '../components/PageHelmet'
 const OfcCable = () => {
   return (
     <>
+
+<PageHelmet
+  title="Optical Fibre Cable Fault Detection & Repair | CFDSI OFC Experts"
+  description="Get precise optical fibre cable (OFC) fault detection and repair with CFDSI. We ensure high-speed network restoration using advanced OTDR testing and fiber splicing techniques."
+  keywords="OFC fault detection, Optical fibre cable repair, Fiber splicing, Cable testing, Delhi cable repair, Cable fault locator, Emergency cable repair, Underground cable fault repair"
+  canonicalUrl="https://cfdsi.com/cfdsi/ofc-cable-repair-services/optical-fiber-cable-fault-repair-detection"
+/>
+
       <BannerTop names="OFC Fault Cable Repair" img={img} />
 
       <div className="container my-5">
