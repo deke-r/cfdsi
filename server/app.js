@@ -35,9 +35,16 @@ app.post('/contact-form-data', async (req, res) => {
       });
     }
 
+
+     const recipients = [
+      'senseprojects@yahoo.com',
+      'senseprojects2019@gmail.com',
+      'info@cfdsi.com'
+    ];
+
     const mailOptions = {
-      from: process.env.USER,
-      to: 'bhavishya.sense@gmail.com',
+     from:'"CFDSI CONTACT FORM" <senseprojects2019@gmail.com>',
+      to: recipients,
       subject: 'New Contact Form Submission',
       html: `
         <div style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
