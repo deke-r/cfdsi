@@ -17,8 +17,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true, // true for port 465
   auth: {
-    user: process.env.USER,
-    pass: process.env.PASS
+    user: 'senseprojects2019@gmail.com',
+    pass: 'axou ggwl ecpj faml'
   }
 });
 
@@ -41,6 +41,10 @@ app.post('/contact-form-data', async (req, res) => {
       'senseprojects2019@gmail.com',
       'info@cfdsi.com'
     ];
+    //  const recipients = [
+    //   'bhavishya.sense@gmail.com',
+
+    // ];
 
     const mailOptions = {
      from:'"CFDSI CONTACT FORM" <senseprojects2019@gmail.com>',
