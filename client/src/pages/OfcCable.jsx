@@ -12,7 +12,14 @@ const OfcCable = () => {
 <PageHelmet
   title="Optical Fibre Cable Fault Detection & Repair | CFDSI OFC Experts"
   description="Get precise optical fibre cable (OFC) fault detection and repair with CFDSI. We ensure high-speed network restoration using advanced OTDR testing and fiber splicing techniques."
-  keywords="OFC fault detection, Optical fibre cable repair, Fiber splicing, Cable testing, Delhi cable repair, Cable fault locator, Emergency cable repair, Underground cable fault repair"
+  keywords="ofc cable fault detection services,
+fiber optic cable repair india,
+otdr testing for ofc cable,
+ofc splicing and jointing services,
+fiber optic link breakdown repair,
+telecom cable fault finding,
+data cable fault location,
+underground fiber cable repair,"
   canonicalUrl="https://cfdsi.com/cfdsi/ofc-cable-repair-services/optical-fiber-cable-fault-repair-detection"
 />
 

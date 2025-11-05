@@ -12,7 +12,13 @@ const HtCable = () => {
 <PageHelmet
   title="LT Cable Repair & Fault Detection | CFDSI Low Voltage Specialists"
   description="CFDSI offers reliable LT cable repair and low voltage fault detection services. Our team ensures minimal downtime with precision cable testing and jointing solutions."
-  keywords="LT cable repair, Low voltage cable fault detection, Underground cable repair, Cable jointing services, Emergency cable repair, Cable testing, Delhi cable repair, Cable fault locator"
+  keywords="lt cable fault finding services,
+low tension cable repair,
+underground lt cable fault detection,
+lt cable breakdown solution,
+continuity and mega test lt cable,
+lt power cable repair contractors,
+domestic cable fault repair,"
   canonicalUrl="https://cfdsi.com/cfdsi/lt-cable-repair-services/low-voltage-cable-fault-detection-repair"
 />
 

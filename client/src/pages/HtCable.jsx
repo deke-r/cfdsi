@@ -12,7 +12,14 @@ const HtCable = () => {
 <PageHelmet
   title="HT Cable Fault Detection & Repair | CFDSI High Voltage Experts"
   description="CFDSI specializes in high voltage (HT) cable fault detection and repair. We use advanced fault locator tools to ensure safe and efficient restoration of your high-tension networks."
-  keywords="HT cable fault detection, Underground cable fault repair, High voltage cable testing, Cable jointing services, Emergency cable repair, Cable fault finding service, Delhi cable repair, Cable fault locator"
+  keywords="ht cable fault location services,
+high tension cable fault repair,
+ht cable breakdown solution,
+vlf testing for ht cables,
+power cable fault finding experts,
+underground ht cable fault identification,
+earthed cable fault repair,
+ht cable jointing and testing,"
   canonicalUrl="https://cfdsi.com/cfdsi/ht-cable-repair-services/high-voltage-cable-fault-detection-repair"
 />
 

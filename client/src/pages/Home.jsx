@@ -15,7 +15,12 @@ const Home = () => {
 <PageHelmet
   title="CFDSI | Underground Cable Fault Repair Experts in Delhi NCR"
   description="CFDSI provides expert underground cable fault repair, HT/LT cable testing, and OFC repair services. We ensure fast and reliable fault detection for all cable types across Delhi NCR."
-  keywords="Underground cable fault repair, HT cable fault detection, LT cable repair, OFC fault detection, Cable testing, Cable fault finding service, Delhi cable repair, Emergency cable repair, Cable fault locator, Cable jointing services"
+  keywords="cable fault detection services in india,
+underground cable fault repair india,
+24/7 emergency cable fault solutions,
+power and fiber optic cable fault finding,
+best cable fault detection company india,
+industrial cable fault services,"
   canonicalUrl="https://cfdsi.com/"
 />
 

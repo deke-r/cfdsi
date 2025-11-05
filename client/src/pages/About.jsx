@@ -11,7 +11,17 @@ const About = () => {
 <PageHelmet
   title="About CFDSI | Trusted Underground Cable Fault Repair Experts"
   description="Learn more about CFDSI — a leading name in HT, LT, and OFC cable fault detection and repair across India. We specialize in accurate diagnostics and reliable restoration services."
-  keywords="Underground cable fault repair, HT cable fault detection, LT cable repair, OFC fault detection, Cable testing, Cable fault finding service, Delhi cable repair, Emergency cable repair, Cable fault locator, Cable jointing services"
+  keywords="cfdsi company profile,
+cable fault detection specialists india,
+experienced cable fault repair team,
+certified cable testing experts,
+reliable underground cable solutions provider,
+india's leading cable fault engineers,
+our expertise in ht lt ofc repair,
+advanced cable diagnostic services,
+mission vision cable fault detection,
+professional cable maintenance company,
+why choose cfdsi for cable faults,"
   canonicalUrl="https://cfdsi.com/cfdsi/about-us/underground-cable-fault-repair-experts"
 />
 
