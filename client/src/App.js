@@ -8,6 +8,7 @@ import HtCable from "./pages/HtCable";
 import LtCabel from "./pages/LtCabel";
 import OfcCable from "./pages/OfcCable";
 import ScrollToTop from "./ScrollToTop";
+import ThankYou from "./pages/ThankYou";
 
 const App = () => {
   useEffect(() => {
@@ -71,6 +72,10 @@ const App = () => {
           <Route
             path="/cfdsi/ofc-cable-repair-services/optical-fiber-cable-fault-repair-detection"
             element={<OfcCable />}
+          />
+          <Route
+            path="/thank-you"
+            element={<ThankYou/>}
           />
         </Routes>
         <Footer />
