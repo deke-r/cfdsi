@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/images/logo.png";
 const Navbar = () => {
   return (
     <>
@@ -10,8 +10,8 @@ const Navbar = () => {
             className="navbar-brand ms-md-5 text-light fw-semibold"
             to="/cfdsi"
           >
-            CFDSI
-          </Link>
+           <img src={logo} alt="logo" width={90}
+/>          </Link>
           <button
             className="navbar-toggler"
             type="button"
